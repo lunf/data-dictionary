@@ -42,7 +42,6 @@ tmp/
 data/
 *.csv
 *.xlsx
-*.pdf
 *.docx
 *_temp.docx
 

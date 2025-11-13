@@ -14,6 +14,8 @@ The topic is highly engaging — offering an opportunity to explore NLP and sema
 > The organization has business terminology stored in documents(e.g BRDs, SRSs), but this information is static, fragmented and hard to access. As a result, teams face difficulties in understanding business procedures and definitions. The goal is to build an automatic tool that extracts and structures businerss terms from these documents into a centralized data dictionary, improving clarity and cross-team alignment.
 
 
+[More detailed in this proposal](Proposal_Auto_Business_Data_Dictionary.pdf).
+
 ### 🧩 Components
 1. **Backend (Python FastAPI)**
    - Handles document parsing (`.docx`)
