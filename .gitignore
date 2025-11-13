@@ -1,0 +1,109 @@
+# =====================================
+# Python / FastAPI backend
+# =====================================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+*.env
+.env.*
+*.bak
+instance/
+venv/
+.venv/
+env/
+ENV/
+.idea/
+.vscode/
+.DS_Store
+
+# Compiled Python files
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Models / Cache / Data files
+*.model
+*.bin
+*.pkl
+*.h5
+*.pt
+*.ckpt
+*.npy
+*.npz
+*.log
+cache/
+temp/
+tmp/
+data/
+*.csv
+*.xlsx
+*.pdf
+*.docx
+*_temp.docx
+
+# =====================================
+# Node / React frontend
+# =====================================
+# Dependency directories
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+.pnpm-debug.log*
+
+# Build output
+dist/
+build/
+
+# Environment variables
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE and OS-specific
+.idea/
+.vscode/
+*.swp
+*.swo
+*.tmp
+*.bak
+Thumbs.db
+.DS_Store
+
+# =====================================
+# Docker / Compose (optional)
+# =====================================
+*.pid
+*.seed
+*.tar
+*.gz
+*.zip
+*.sql
+volumes/
+docker_data/
+
+# =====================================
+# Test / Coverage
+# =====================================
+.coverage
+htmlcov/
+pytest_cache/
+__snapshots__/
+*.coverage
+*.pytest_cache
+junit.xml
+coverage.xml
+
+# =====================================
+# Jupyter / Notebooks
+# =====================================
+.ipynb_checkpoints/
+*.ipynb
+

@@ -1,0 +1,39 @@
+# === Core IO & Document Processing ===
+PyPDF2==3.0.1
+python-docx==1.1.2
+pdf2docx==0.5.8
+pymupdf==1.26.4
+
+# === Language Detection & Translation ===
+langdetect==1.0.9
+googletrans==4.0.2
+
+# === NLP & Text Processing ===
+nltk==3.9.1
+spacy==3.8.7
+en_core_web_lg @ https://github.com/explosion/spacy-models/releases/download/en_core_web_lg-3.8.0/en_core_web_lg-3.8.0.tar.gz
+textblob==0.17.1
+scikit-learn==1.5.2
+sentence-transformers==4.1.0
+transformers==4.41.0
+torch>=2.3.0
+
+# === AI ===
+openai==2.7.1
+google_generativeai==0.8.5
+google-genai==1.49.0
+
+# === Data Manipulation & Utility ===
+pandas==2.2.3
+numpy==1.26.4
+sqlalchemy>=2.0.0
+pymysql>=1.1.0
+
+# === Optional: Logging, Configuration & CLI ===
+python-dotenv==1.0.1
+tqdm==4.66.4
+rich==13.9.1
+
+# === (Optional for later) Model Serving or API ===
+fastapi==0.115.0
+uvicorn==0.30.1

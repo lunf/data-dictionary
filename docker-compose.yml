@@ -1,0 +1,25 @@
+name: data-dictionary-prj
+
+services:
+  mysql_dictionary:
+    image: mysql:8.0
+    container_name: mysql-dictionary
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: dict_db
+      MYSQL_USER: dict_user
+      MYSQL_PASSWORD: dict_pass
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./docker_data/mysql_dictionary:/var/lib/mysql
+      - ./db_init:/docker-entrypoint-initdb.d:ro
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  mysql_dictionary:
